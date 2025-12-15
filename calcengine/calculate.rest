@@ -1,0 +1,35 @@
+### ADD
+POST http://127.0.0.1:8000/api/add/
+Content-Type: application/json
+
+{
+  "a": 5,
+  "b": 3
+}
+
+### SUBTRACT
+POST http://127.0.0.1:8000/api/subtract/
+Content-Type: application/json
+
+{
+  "a": 10,
+  "b": 4
+}
+
+### MULTIPLY
+POST http://127.0.0.1:8000/api/multiply/
+Content-Type: application/json
+
+{
+  "a": 6,
+  "b": 7
+}
+
+### DIVIDE
+POST http://127.0.0.1:8000/api/divide/
+Content-Type: application/json
+
+{
+  "a": 20,
+  "b": 4
+}
